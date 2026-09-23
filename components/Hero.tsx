@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaPlay, FaCalendar } from 'react-icons/fa';
+import { FaEnvelope, FaCalendar } from 'react-icons/fa';
 import Image from 'next/image';
 
 export default function Hero() {
@@ -115,13 +115,13 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.8 }}
         >
-          <button
-            onClick={() => document.querySelector('#music')?.scrollIntoView({ behavior: 'smooth' })}
+          <a
+            href="mailto:ravasonicos@gmail.com?subject=Info%20merchandising"
             className="group bg-neon hover:bg-neon/90 text-dark font-bold px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-neon hover:shadow-neon-lg flex items-center gap-3"
           >
-            <FaPlay className="group-hover:scale-110 transition-transform" size={16} />
-            ASCOLTA ORA
-          </button>
+            <FaEnvelope className="group-hover:scale-110 transition-transform" size={16} />
+            INFO MERCHANDISING
+          </a>
           <button
             onClick={() => document.querySelector('#tour')?.scrollIntoView({ behavior: 'smooth' })}
             className="border-2 border-neon bg-transparent hover:bg-neon/10 text-neon font-bold px-10 py-4 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center gap-3"
