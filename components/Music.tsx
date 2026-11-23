@@ -13,7 +13,7 @@ export default function Music() {
 
   const tracks = [
     {
-      title: 'Brano 1',
+      title: 'Creep',
       audioUrl: '/audio/track1.ogg',
       cover: '/images/logo_senza_sfondo.webp',
     },
