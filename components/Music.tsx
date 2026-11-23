@@ -12,14 +12,19 @@ export default function Music() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const tracks = [
-    { 
-      title: 'Lamento Boliviano', 
+    {
+      title: 'Brano 1',
       audioUrl: '/audio/track1.ogg',
       cover: '/images/logo_senza_sfondo.webp',
     },
-    { 
-      title: 'El Muelle de San Blas', 
+    {
+      title: 'Laura no está',
       audioUrl: '/audio/track2.ogg',
+      cover: '/images/logo_senza_sfondo.webp',
+    },
+    {
+      title: 'Maldito duende',
+      audioUrl: '/audio/track3.ogg',
       cover: '/images/logo_senza_sfondo.webp',
     },
   ];
